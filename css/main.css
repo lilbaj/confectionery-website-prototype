@@ -45,13 +45,16 @@ header {
   background-color: #051899;
 }
 
+header nav {
+  width: 100%;
+}
+
 nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
-  width: 100%;
   margin: 0;
 }
 
@@ -117,6 +120,8 @@ nav a:hover {
 
 main h2 {
   text-align: center;
+  font-family: "Fugaz One", cursive;
+  color: #051899;
 }
 
 .cards {
@@ -142,6 +147,7 @@ main h2 {
   margin-top: 0;
   margin-bottom: .5rem;
   text-align: center;
+  font-family: "Fugaz One", cursive;
 }
 
 .card-des {
@@ -202,4 +208,54 @@ footer h4 {
 .social-btn {
   padding: .5rem;
   width: 15%;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .text-banner {
+    top: 2.5em;
+    padding: 1em;
+    text-align: center;
+    max-width: 25em;
+  }
+
+  .card {
+    padding: 1.25em;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  header {
+    justify-content: center;
+  }
+
+  h1 {
+    width: 88%;
+  }
+
+  nav ul {
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  .shop {
+    width: 8%;
+  }
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
+
 }

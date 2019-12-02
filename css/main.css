@@ -60,12 +60,13 @@ nav li {
   width: 50%;
   text-align: center;
   border: solid 1px #7dafff;
+  background-color: #3876e0;
 }
 
 nav a {
   padding: .5rem;
   font-size: 1.25em;
-  color: #7dafff;
+  color: #fff;
 }
 
 h1 {
@@ -96,6 +97,7 @@ nav a:hover {
 }
 
 .img-flex {
+  display: block;
   width: 100%
 }
 
@@ -110,6 +112,7 @@ nav a:hover {
   padding: 1em;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
 }
 
 main h2 {
@@ -127,11 +130,37 @@ main h2 {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid #051899;
-  border-radius: 8px;
-  background-color: #7dafff;
+  border-radius: 12px;
+  background-color: #3876e0;
   color: #fff;
   padding: .75rem;
   width: 100%;
   margin-bottom: 1.5em;
+}
+
+.card-title h3 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  text-align: center;
+}
+
+.card-des {
+  margin-bottom: .5rem;
+}
+
+.btn-small {
+  padding: .75em;
+  background-color: #051899;
+  color: #fff;
+  font-size: .875rem;
+  border-radius: 8px;
+
+}
+
+.btn {
+  margin-bottom: .5rem;
+}
+
+.btn-small:hover {
+  background-color: #7dafff
 }

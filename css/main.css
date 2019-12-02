@@ -75,7 +75,7 @@ h1 {
   padding: .5em 1.25em .5em .5em;
   margin: 0;
   color: #7dafff;
-  font-family: 'Fugaz One', cursive;
+  font-family: "Fugaz One", cursive;
 }
 
 .shop {
@@ -98,7 +98,7 @@ nav a:hover {
 
 .img-flex {
   display: block;
-  width: 100%
+  width: 100%;
 }
 
 .banner {
@@ -111,7 +111,7 @@ nav a:hover {
   top: 1em;
   padding: 1em;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, .3);
   color: #fff;
 }
 
@@ -154,7 +154,6 @@ main h2 {
   color: #fff;
   font-size: .875rem;
   border-radius: 8px;
-
 }
 
 .btn {
@@ -162,5 +161,45 @@ main h2 {
 }
 
 .btn-small:hover {
-  background-color: #7dafff
+  background-color: #7dafff;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #051899;
+}
+
+footer h4 {
+  color: #7dafff;
+  font-family: "Fugaz One", cursive;
+  margin-bottom: 0;
+}
+
+.foot-nav {
+  display: flex;
+}
+
+.foot-nav li {
+  padding: .5em;
+}
+
+.foot-nav a {
+  color: #7dafff;
+}
+
+.foot-nav a:hover {
+  color: #fff;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.social-btn {
+  padding: .5rem;
+  width: 15%;
 }

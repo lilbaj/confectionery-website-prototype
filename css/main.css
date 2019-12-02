@@ -63,6 +63,7 @@ nav li {
 }
 
 nav a {
+  padding: .5rem;
   font-size: 1.25em;
   color: #7dafff;
 }
@@ -82,4 +83,55 @@ h1 {
 
 .shop img {
   display: inline-block;
+}
+
+nav li:hover {
+  background-color: #7dafff;
+  color: #fff;
+}
+
+nav a:hover {
+  background-color: #7dafff;
+  color: #fff;
+}
+
+.img-flex {
+  width: 100%
+}
+
+.banner {
+  overflow: auto;
+  position: relative;
+}
+
+.text-banner {
+  position: absolute;
+  top: 1em;
+  padding: 1em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+main h2 {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #051899;
+  border-radius: 8px;
+  background-color: #7dafff;
+  color: #fff;
+  padding: .75rem;
+  width: 100%;
+  margin-bottom: 1.5em;
 }
